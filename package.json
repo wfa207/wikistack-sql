@@ -1,0 +1,15 @@
+{
+  "name": "wikistack-sql",
+  "version": "1.0.0",
+  "description": "'Wikistack Workshop'",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "sequelize"
+  ],
+  "author": "",
+  "license": "ISC"
+}
