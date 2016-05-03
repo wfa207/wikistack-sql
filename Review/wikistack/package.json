@@ -1,20 +1,21 @@
 {
-  "name": "wikistack-sql",
+  "name": "wikistack",
   "version": "1.0.0",
-  "description": "'Wikistack Workshop'",
-  "main": "app.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon server.js"
   },
-  "keywords": [
-    "sequelize"
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.9.2"
+  },
   "dependencies": {
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
+    "morgan": "^1.7.0",
     "pg": "^4.5.5",
     "pg-hstore": "^2.3.2",
     "sequelize": "^3.22.0",
